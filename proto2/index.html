@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>N.Mouala</title>
+  <meta name="description" content="particles.js is a lightweight JavaScript library for creating particles.">
+  <meta name="author" content="Vincent Garreau" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" media="screen" href="./assets/css/style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.2/TextPlugin.min.js"></script>
+
+
+
+</head>
+<body>
+<section id="s1">
+<div class="count-particles">
+
+</div>
+<div id="particles-js">
+
+  <div id="contact-me">  <div id="contact-me-text"></div>  </div>
+  <img id="logo" src="./assets/icons/logo.png" >
+  <div id="informayionRay"> </div>
+  <div id="nav-projects" ></div>
+  <div id="welcome-statement" ></div>
+  
+  <div id="icon-container">
+    <img id="intellij" src="./assets/icons/intellij.svg" alt="Falling Icon" class="falling-icon">
+    <img id="net" src="./assets/icons/net.svg" alt="Falling Icon" class="falling-icon">
+    <img id="ssl" src="./assets/icons/ssl.svg" alt="Falling Icon" class="falling-icon">
+    <img id="docker" src="./assets/icons/docker.svg" alt="Falling Icon" class="falling-icon">
+    <img id="nginx" src="./assets/icons/nginx.svg" alt="Falling Icon" class="falling-icon">
+    
+
+   
+
+</div>
+
+</div>
+</section>
+<section id="s2">
+<div id="greens-container">
+  <img id="greens" src="./assets/icons/green.jpg">
+</div>
+<div id="greens-text"></div>
+
+
+</section>
+<!-- scripts -->
+<script src="./assets/particles.js"></script>
+<script src="./assets/app.js"></script>
+
+<script>
+  gsap.registerPlugin(TextPlugin);
+  gsap.to("#welcome-statement", {
+    duration: 10,
+    text: "Hello! I'm N Mouala, a Master’s student in Computer Science and Engineering, specializing in Computer Security <br><br> With a focus on the Software Development Life Cycle, I design, develop, test, and maintain secure solutions <br><br> I am passionate about technology to enhance cybersecurity measures and safeguard digital assets",
+    ease: "none"
+    });
+
+    gsap.to("#contact-me-text", {
+    duration: 1,
+    text: "CONTACT ME",
+    ease: "none"
+    });
+
+    gsap.to("#nav-projects", {
+      duration: 2,
+      text: "Navigate Through My Projects",
+      ease: "none",
+      delay: 3
+      });
+  var count_particles, stats, update;
+
+
+  document.getElementById("nav-projects").addEventListener("click", function() {
+    // Assuming background1 is visible initially
+    var bg1 = document.getElementById("particles-js");
+    var bg2 = document.getElementById("s2");
+
+    // Ensure s2 is positioned correctly (same position as s1)
+    gsap.set(bg2, { 
+        position: "absolute", 
+        top: bg1.offsetTop + "px", 
+        left: bg1.offsetLeft + "px", 
+        width: bg1.offsetWidth + "px", 
+        height: bg1.offsetHeight + "px", 
+        opacity: 0,
+        display: "block"
+    });
+
+    // Animate s1 to fade out
+    gsap.to(bg1, { opacity: 0, duration: 1, scale: 0,
+      rotate: 10, // slight rotation to enhance the effect
+      duration: 3,
+      delay: 0.5,
+      ease: "power2.out", // use an ease out to make it smooth
+      transformOrigin: "top right" });
+
+    // Animate s2 to fade in at the same position as s1
+    gsap.to(bg2, { 
+      opacity: 1,
+       duration: 1,
+        delay: 0.5,
+        
+      });
+
+      gsap.to("#greens-text", {
+        duration: 4,
+        text: " Green smart home management system developed to extend smart homes with an integration to green energy sources.<br><br> The Project is built on the top of two main concepts: Green energy and self-organized automation <br><br>",
+        ease: "none",
+        delay: 0
+        });
+  });
+
+
+  update = function() {
+
+    
+    requestAnimationFrame(update);
+  };
+  requestAnimationFrame(update);
+</script>
+
+</body>
+</html>
