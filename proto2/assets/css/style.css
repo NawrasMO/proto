@@ -121,11 +121,29 @@ background-color: white;
 #contact-me-text{
 font-family: monospace;
 position: relative;
-font-size: 30px;
+font-size: 23px;
 margin: 50px;
 cursor: pointer;
 
 }
+#arch1{
+  position: absolute;
+  width: 100%;
+  top: 36%; 
+  font-family: monospace;
+  height: auto;
+  overflow: hidden;
+  font-size: clamp(1rem, 1vw + 1rem, 20px);
+  line-height: 0.8;
+  white-space: nowrap;
+  color: azure;
+  display: flex; /* Use flexbox for alignment */
+  align-items: center; /* Center text vertically */
+  justify-content: center; /* Center text horizontally */
+  text-align: center; 
+
+}
+
 
 
 #informayionRay { 
