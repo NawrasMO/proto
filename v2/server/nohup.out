@@ -588,3 +588,463 @@ WARNING: This is a development server. Do not use it in a production deployment.
  * Running on https://127.0.0.1:443
  * Running on https://10.0.0.4:443
 Press CTRL+C to quit
+78.153.180.134 - - [29/Jan/2025 00:02:09] "GET /static/img/ved1.mp4 HTTP/1.1" 206 -
+78.153.180.134 - - [29/Jan/2025 00:02:09] "GET /static/img/ved4.mp4 HTTP/1.1" 206 -
+78.153.180.134 - - [29/Jan/2025 00:02:11] "GET / HTTP/1.1" 200 -
+78.153.180.134 - - [29/Jan/2025 00:02:11] "GET /static/css/style2.css HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:02:11] "GET /static/img/email.svg HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:02:11] "GET /static/img/address.svg HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:02:11] "GET /static/img/mobile.svg HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:02:11] "GET /static/img/linkedin.svg HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:02:11] "GET /static/img/steve.png HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:02:11] "GET /static/img/architecture2.png HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:02:11] "GET /static/img/floating/1%20(8).png HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:02:11] "GET /static/img/data-sec.png HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:02:11] "GET /static/img/floating/1%20(5).png HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:02:11] "GET /static/img/dhawk.png HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:02:11] "GET /static/img/github.svg HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:02:12] "GET /static/img/pdf.svg HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:02:12] "GET /static/js/tests.js HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:02:12] "GET /static/img/ball.png HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:02:12] "GET /static/img/floating/1%20(1).png HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:02:12] "GET /static/img/floating/1%20(2).png HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:02:12] "GET /static/img/floating/1%20(3).png HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:02:12] "GET /static/img/ved4.mp4 HTTP/1.1" 206 -
+52.16.245.145 - - [29/Jan/2025 00:02:41] "GET / HTTP/1.1" 200 -
+52.16.245.145 - - [29/Jan/2025 00:02:41] "GET / HTTP/1.1" 200 -
+52.16.245.145 - - [29/Jan/2025 00:02:42] "GET /static/css/style2.css HTTP/1.1" 200 -
+52.16.245.145 - - [29/Jan/2025 00:02:42] "GET /static/img/email.svg HTTP/1.1" 200 -
+52.16.245.145 - - [29/Jan/2025 00:02:42] "GET /static/img/address.svg HTTP/1.1" 200 -
+52.16.245.145 - - [29/Jan/2025 00:02:42] "GET /static/img/mobile.svg HTTP/1.1" 200 -
+52.16.245.145 - - [29/Jan/2025 00:02:42] "GET /static/img/linkedin.svg HTTP/1.1" 200 -
+52.16.245.145 - - [29/Jan/2025 00:02:42] "GET /static/js/tests.js HTTP/1.1" 200 -
+52.16.245.145 - - [29/Jan/2025 00:02:42] "GET /static/img/steve.png HTTP/1.1" 200 -
+52.16.245.145 - - [29/Jan/2025 00:02:42] "GET /static/img/ball.png HTTP/1.1" 200 -
+52.16.245.145 - - [29/Jan/2025 00:02:42] "GET /static/img/floating/1%20(1).png HTTP/1.1" 200 -
+52.16.245.145 - - [29/Jan/2025 00:02:42] "GET /static/img/dhawk.png HTTP/1.1" 200 -
+52.16.245.145 - - [29/Jan/2025 00:02:42] "GET /static/img/github.svg HTTP/1.1" 200 -
+52.16.245.145 - - [29/Jan/2025 00:02:42] "GET /static/img/pdf.svg HTTP/1.1" 200 -
+52.16.245.145 - - [29/Jan/2025 00:02:42] "GET /static/img/floating/1%20(2).png HTTP/1.1" 200 -
+52.16.245.145 - - [29/Jan/2025 00:02:42] "GET /static/img/floating/1%20(3).png HTTP/1.1" 200 -
+52.16.245.145 - - [29/Jan/2025 00:02:42] "GET /static/img/floating/1%20(5).png HTTP/1.1" 200 -
+52.16.245.145 - - [29/Jan/2025 00:02:42] "GET /static/img/floating/1%20(8).png HTTP/1.1" 200 -
+52.16.245.145 - - [29/Jan/2025 00:02:42] "GET /static/img/architecture2.png HTTP/1.1" 200 -
+52.16.245.145 - - [29/Jan/2025 00:02:42] "GET /static/img/data-sec.png HTTP/1.1" 200 -
+52.16.245.145 - - [29/Jan/2025 00:02:43] "GET /favicon.ico HTTP/1.1" 404 -
+52.16.245.145 - - [29/Jan/2025 00:02:43] "GET / HTTP/1.1" 200 -
+52.16.245.145 - - [29/Jan/2025 00:02:43] "HEAD /favicon.ico HTTP/1.1" 404 -
+52.16.245.145 - - [29/Jan/2025 00:02:43] "GET /static/img/ved4.mp4 HTTP/1.1" 206 -
+52.16.245.145 - - [29/Jan/2025 00:02:43] "GET /static/img/ved1.mp4 HTTP/1.1" 206 -
+Error on request:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/werkzeug/serving.py", line 362, in run_wsgi
+    execute(self.server.app)
+  File "/usr/lib/python3/dist-packages/werkzeug/serving.py", line 326, in execute
+    write(data)
+  File "/usr/lib/python3/dist-packages/werkzeug/serving.py", line 301, in write
+    self.wfile.write(data)
+  File "/usr/lib/python3.12/socketserver.py", line 840, in write
+    self._sock.sendall(b)
+  File "/usr/lib/python3.12/ssl.py", line 1211, in sendall
+    v = self.send(byte_view[count:])
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/ssl.py", line 1180, in send
+    return self._sslobj.write(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:2406)
+52.16.245.145 - - [29/Jan/2025 00:02:43] "GET /static/img/ved4.mp4 HTTP/1.1" 206 -
+52.16.245.145 - - [29/Jan/2025 00:02:43] "GET /static/img/ved4.mp4 HTTP/1.1" 206 -
+52.16.245.145 - - [29/Jan/2025 00:02:44] "GET /static/img/ved4.mp4 HTTP/1.1" 206 -
+52.16.245.145 - - [29/Jan/2025 00:02:56] "GET / HTTP/1.1" 200 -
+52.16.245.145 - - [29/Jan/2025 00:02:56] "GET / HTTP/1.1" 200 -
+52.16.245.145 - - [29/Jan/2025 00:02:56] "GET /static/css/style2.css HTTP/1.1" 200 -
+52.16.245.145 - - [29/Jan/2025 00:02:56] "GET /static/img/email.svg HTTP/1.1" 200 -
+52.16.245.145 - - [29/Jan/2025 00:02:56] "GET /static/img/address.svg HTTP/1.1" 200 -
+52.16.245.145 - - [29/Jan/2025 00:02:56] "GET /static/img/mobile.svg HTTP/1.1" 200 -
+52.16.245.145 - - [29/Jan/2025 00:02:56] "GET /static/js/tests.js HTTP/1.1" 200 -
+52.16.245.145 - - [29/Jan/2025 00:02:56] "GET /static/img/linkedin.svg HTTP/1.1" 200 -
+52.16.245.145 - - [29/Jan/2025 00:02:56] "GET /static/img/steve.png HTTP/1.1" 200 -
+52.16.245.145 - - [29/Jan/2025 00:02:56] "GET /static/img/ved4.mp4 HTTP/1.1" 206 -
+52.16.245.145 - - [29/Jan/2025 00:02:57] "GET /static/img/ved1.mp4 HTTP/1.1" 206 -
+52.16.245.145 - - [29/Jan/2025 00:02:57] "GET /static/img/ball.png HTTP/1.1" 200 -
+52.16.245.145 - - [29/Jan/2025 00:02:57] "GET /static/img/dhawk.png HTTP/1.1" 200 -
+Error on request:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/werkzeug/serving.py", line 362, in run_wsgi
+    execute(self.server.app)
+  File "/usr/lib/python3/dist-packages/werkzeug/serving.py", line 326, in execute
+    write(data)
+  File "/usr/lib/python3/dist-packages/werkzeug/serving.py", line 301, in write
+    self.wfile.write(data)
+  File "/usr/lib/python3.12/socketserver.py", line 840, in write
+    self._sock.sendall(b)
+  File "/usr/lib/python3.12/ssl.py", line 1211, in sendall
+    v = self.send(byte_view[count:])
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/ssl.py", line 1180, in send
+    return self._sslobj.write(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:2406)
+52.16.245.145 - - [29/Jan/2025 00:02:57] "GET /static/img/ved4.mp4 HTTP/1.1" 206 -
+52.16.245.145 - - [29/Jan/2025 00:02:57] "GET /static/img/ved4.mp4 HTTP/1.1" 206 -
+52.16.245.145 - - [29/Jan/2025 00:02:57] "GET /static/img/github.svg HTTP/1.1" 200 -
+52.16.245.145 - - [29/Jan/2025 00:02:57] "GET /static/img/pdf.svg HTTP/1.1" 200 -
+52.16.245.145 - - [29/Jan/2025 00:02:57] "GET /static/img/floating/1%20(1).png HTTP/1.1" 200 -
+52.16.245.145 - - [29/Jan/2025 00:02:57] "GET /static/img/ved4.mp4 HTTP/1.1" 206 -
+52.16.245.145 - - [29/Jan/2025 00:02:57] "GET /static/img/floating/1%20(2).png HTTP/1.1" 200 -
+52.16.245.145 - - [29/Jan/2025 00:02:57] "GET /static/img/floating/1%20(3).png HTTP/1.1" 200 -
+52.16.245.145 - - [29/Jan/2025 00:02:57] "GET /static/img/floating/1%20(5).png HTTP/1.1" 200 -
+52.16.245.145 - - [29/Jan/2025 00:02:57] "GET /static/img/floating/1%20(8).png HTTP/1.1" 200 -
+52.16.245.145 - - [29/Jan/2025 00:02:57] "GET /static/img/architecture2.png HTTP/1.1" 200 -
+52.16.245.145 - - [29/Jan/2025 00:02:57] "GET /static/img/data-sec.png HTTP/1.1" 200 -
+52.16.245.145 - - [29/Jan/2025 00:02:57] "GET /favicon.ico HTTP/1.1" 404 -
+52.16.245.145 - - [29/Jan/2025 00:02:57] "GET / HTTP/1.1" 200 -
+52.16.245.145 - - [29/Jan/2025 00:02:58] "HEAD /favicon.ico HTTP/1.1" 404 -
+78.153.180.134 - - [29/Jan/2025 00:03:53] "GET /static/img/ved1.mp4 HTTP/1.1" 206 -
+78.153.180.134 - - [29/Jan/2025 00:03:53] "GET /static/img/ved4.mp4 HTTP/1.1" 206 -
+Error on request:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/werkzeug/serving.py", line 362, in run_wsgi
+    execute(self.server.app)
+  File "/usr/lib/python3/dist-packages/werkzeug/serving.py", line 326, in execute
+    write(data)
+  File "/usr/lib/python3/dist-packages/werkzeug/serving.py", line 301, in write
+    self.wfile.write(data)
+  File "/usr/lib/python3.12/socketserver.py", line 840, in write
+    self._sock.sendall(b)
+  File "/usr/lib/python3.12/ssl.py", line 1211, in sendall
+    v = self.send(byte_view[count:])
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/ssl.py", line 1180, in send
+    return self._sslobj.write(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:2406)
+78.153.180.134 - - [29/Jan/2025 00:03:53] "GET /static/img/ved4.mp4 HTTP/1.1" 206 -
+78.153.180.134 - - [29/Jan/2025 00:03:56] "GET / HTTP/1.1" 200 -
+78.153.180.134 - - [29/Jan/2025 00:03:56] "GET /static/css/style2.css HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:03:56] "GET /static/img/email.svg HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:03:56] "GET /static/img/address.svg HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:03:56] "GET /static/img/mobile.svg HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:03:56] "GET /static/img/linkedin.svg HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:03:56] "GET /static/img/steve.png HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:03:56] "GET /static/js/tests.js HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:03:56] "GET /static/img/ball.png HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:03:56] "GET /static/img/floating/1%20(1).png HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:03:56] "GET /static/img/architecture2.png HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:03:56] "GET /static/img/dhawk.png HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:03:56] "GET /static/img/github.svg HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:03:56] "GET /static/img/data-sec.png HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:03:56] "GET /static/img/pdf.svg HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:03:56] "GET /static/img/floating/1%20(8).png HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:03:56] "GET /static/img/floating/1%20(2).png HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:03:56] "GET /static/img/floating/1%20(3).png HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:03:56] "GET /static/img/floating/1%20(5).png HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:03:56] "GET /static/img/ved4.mp4 HTTP/1.1" 206 -
+78.153.180.134 - - [29/Jan/2025 00:06:16] "GET /static/img/ved4.mp4 HTTP/1.1" 206 -
+78.153.180.134 - - [29/Jan/2025 00:06:17] "GET /static/img/ved4.mp4 HTTP/1.1" 206 -
+78.153.180.134 - - [29/Jan/2025 00:06:18] "GET /static/img/ved1.mp4 HTTP/1.1" 206 -
+78.153.180.134 - - [29/Jan/2025 00:06:20] "GET /static/img/ved1.mp4 HTTP/1.1" 206 -
+78.153.180.134 - - [29/Jan/2025 00:07:32] "GET /static/img/ved4.mp4 HTTP/1.1" 206 -
+51.81.46.212 - - [29/Jan/2025 00:07:38] "GET / HTTP/1.1" 200 -
+78.153.180.134 - - [29/Jan/2025 00:08:23] "GET / HTTP/1.1" 200 -
+78.153.180.134 - - [29/Jan/2025 00:08:23] "GET /static/css/style2.css HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:08:23] "GET /static/img/email.svg HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:08:23] "GET /static/img/address.svg HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:08:23] "GET /static/img/mobile.svg HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:08:23] "GET /static/img/linkedin.svg HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:08:23] "GET /static/img/steve.png HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:08:23] "GET /static/img/floating/1%20(5).png HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:08:23] "GET /static/img/pdf.svg HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:08:23] "GET /static/img/github.svg HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:08:23] "GET /static/img/data-sec.png HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:08:23] "GET /static/img/floating/1%20(8).png HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:08:23] "GET /static/img/dhawk.png HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:08:23] "GET /static/img/architecture2.png HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:08:23] "GET /static/js/tests.js HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:08:23] "GET /static/img/ball.png HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:08:23] "GET /static/img/floating/1%20(1).png HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:08:23] "GET /static/img/floating/1%20(2).png HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:08:23] "GET /static/img/floating/1%20(3).png HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:08:31] "GET / HTTP/1.1" 200 -
+78.153.180.134 - - [29/Jan/2025 00:08:31] "GET /static/css/style2.css HTTP/1.1" 200 -
+78.153.180.134 - - [29/Jan/2025 00:08:31] "GET /static/img/email.svg HTTP/1.1" 200 -
+78.153.180.134 - - [29/Jan/2025 00:08:31] "GET /static/img/address.svg HTTP/1.1" 200 -
+78.153.180.134 - - [29/Jan/2025 00:08:31] "GET /static/img/mobile.svg HTTP/1.1" 200 -
+78.153.180.134 - - [29/Jan/2025 00:08:31] "GET /static/img/github.svg HTTP/1.1" 200 -
+78.153.180.134 - - [29/Jan/2025 00:08:31] "GET /static/img/pdf.svg HTTP/1.1" 200 -
+78.153.180.134 - - [29/Jan/2025 00:08:31] "GET /static/img/data-sec.png HTTP/1.1" 200 -
+78.153.180.134 - - [29/Jan/2025 00:08:32] "GET /static/img/floating/1%20(5).png HTTP/1.1" 200 -
+78.153.180.134 - - [29/Jan/2025 00:08:32] "GET /static/img/dhawk.png HTTP/1.1" 200 -
+78.153.180.134 - - [29/Jan/2025 00:08:32] "GET /static/img/floating/1%20(8).png HTTP/1.1" 200 -
+78.153.180.134 - - [29/Jan/2025 00:08:32] "GET /static/img/floating/1%20(2).png HTTP/1.1" 200 -
+78.153.180.134 - - [29/Jan/2025 00:08:32] "GET /static/img/architecture2.png HTTP/1.1" 200 -
+78.153.180.134 - - [29/Jan/2025 00:08:32] "GET /static/img/floating/1%20(3).png HTTP/1.1" 200 -
+78.153.180.134 - - [29/Jan/2025 00:08:32] "GET /static/img/linkedin.svg HTTP/1.1" 200 -
+78.153.180.134 - - [29/Jan/2025 00:08:32] "GET /static/img/steve.png HTTP/1.1" 200 -
+78.153.180.134 - - [29/Jan/2025 00:08:32] "GET /static/js/tests.js HTTP/1.1" 200 -
+78.153.180.134 - - [29/Jan/2025 00:08:32] "GET /static/img/ball.png HTTP/1.1" 200 -
+78.153.180.134 - - [29/Jan/2025 00:08:32] "GET /static/img/floating/1%20(1).png HTTP/1.1" 200 -
+78.153.180.134 - - [29/Jan/2025 00:08:32] "GET /static/img/ved4.mp4 HTTP/1.1" 206 -
+78.153.180.134 - - [29/Jan/2025 00:08:32] "GET /static/img/ved1.mp4 HTTP/1.1" 206 -
+78.153.180.134 - - [29/Jan/2025 00:08:32] "GET /static/img/ved4.mp4 HTTP/1.1" 206 -
+78.153.180.134 - - [29/Jan/2025 00:08:33] "GET /favicon.ico HTTP/1.1" 404 -
+78.153.180.134 - - [29/Jan/2025 00:08:33] "GET /static/img/ved4.mp4 HTTP/1.1" 206 -
+78.153.180.134 - - [29/Jan/2025 00:08:33] "GET /static/img/ved4.mp4 HTTP/1.1" 206 -
+78.153.180.134 - - [29/Jan/2025 00:09:15] "GET / HTTP/1.1" 200 -
+78.153.180.134 - - [29/Jan/2025 00:09:15] "GET /static/css/style2.css HTTP/1.1" 200 -
+78.153.180.134 - - [29/Jan/2025 00:09:15] "GET /static/img/email.svg HTTP/1.1" 200 -
+78.153.180.134 - - [29/Jan/2025 00:09:15] "GET /static/img/address.svg HTTP/1.1" 200 -
+78.153.180.134 - - [29/Jan/2025 00:09:16] "GET /static/img/mobile.svg HTTP/1.1" 200 -
+78.153.180.134 - - [29/Jan/2025 00:09:16] "GET /static/img/linkedin.svg HTTP/1.1" 200 -
+78.153.180.134 - - [29/Jan/2025 00:09:16] "GET /static/img/steve.png HTTP/1.1" 200 -
+78.153.180.134 - - [29/Jan/2025 00:09:16] "GET /static/js/tests.js HTTP/1.1" 200 -
+78.153.180.134 - - [29/Jan/2025 00:09:16] "GET /static/img/ball.png HTTP/1.1" 200 -
+78.153.180.134 - - [29/Jan/2025 00:09:16] "GET /static/img/floating/1%20(1).png HTTP/1.1" 200 -
+78.153.180.134 - - [29/Jan/2025 00:09:16] "GET /static/img/floating/1%20(2).png HTTP/1.1" 200 -
+78.153.180.134 - - [29/Jan/2025 00:09:16] "GET /static/img/floating/1%20(3).png HTTP/1.1" 200 -
+78.153.180.134 - - [29/Jan/2025 00:09:16] "GET /static/img/floating/1%20(5).png HTTP/1.1" 200 -
+78.153.180.134 - - [29/Jan/2025 00:09:16] "GET /static/img/floating/1%20(8).png HTTP/1.1" 200 -
+78.153.180.134 - - [29/Jan/2025 00:09:16] "GET /static/img/dhawk.png HTTP/1.1" 200 -
+78.153.180.134 - - [29/Jan/2025 00:09:16] "GET /static/img/architecture2.png HTTP/1.1" 200 -
+78.153.180.134 - - [29/Jan/2025 00:09:16] "GET /static/img/data-sec.png HTTP/1.1" 200 -
+78.153.180.134 - - [29/Jan/2025 00:09:16] "GET /static/img/github.svg HTTP/1.1" 200 -
+78.153.180.134 - - [29/Jan/2025 00:09:16] "GET /static/img/pdf.svg HTTP/1.1" 200 -
+78.153.180.134 - - [29/Jan/2025 00:09:16] "GET /static/img/ved4.mp4 HTTP/1.1" 206 -
+78.153.180.134 - - [29/Jan/2025 00:09:16] "GET /static/img/ved1.mp4 HTTP/1.1" 206 -
+Error on request:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/werkzeug/serving.py", line 362, in run_wsgi
+    execute(self.server.app)
+  File "/usr/lib/python3/dist-packages/werkzeug/serving.py", line 326, in execute
+    write(data)
+  File "/usr/lib/python3/dist-packages/werkzeug/serving.py", line 301, in write
+    self.wfile.write(data)
+  File "/usr/lib/python3.12/socketserver.py", line 840, in write
+    self._sock.sendall(b)
+  File "/usr/lib/python3.12/ssl.py", line 1211, in sendall
+    v = self.send(byte_view[count:])
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/ssl.py", line 1180, in send
+    return self._sslobj.write(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:2406)
+78.153.180.134 - - [29/Jan/2025 00:09:16] "GET /static/img/ved4.mp4 HTTP/1.1" 206 -
+78.153.180.134 - - [29/Jan/2025 00:09:16] "GET /static/img/ved4.mp4 HTTP/1.1" 206 -
+78.153.180.134 - - [29/Jan/2025 00:09:16] "GET /static/img/ved4.mp4 HTTP/1.1" 206 -
+78.153.180.134 - - [29/Jan/2025 00:09:17] "GET /favicon.ico HTTP/1.1" 404 -
+78.153.180.134 - - [29/Jan/2025 00:14:14] "GET /static/img/ved4.mp4 HTTP/1.1" 206 -
+78.153.180.134 - - [29/Jan/2025 00:14:14] "GET /static/img/ved1.mp4 HTTP/1.1" 206 -
+78.153.180.134 - - [29/Jan/2025 00:14:18] "GET /static/img/ved4.mp4 HTTP/1.1" 206 -
+78.153.180.134 - - [29/Jan/2025 00:14:23] "GET /static/img/ved1.mp4 HTTP/1.1" 206 -
+78.153.180.134 - - [29/Jan/2025 00:15:55] "GET /static/img/ved1.mp4 HTTP/1.1" 206 -
+78.153.180.134 - - [29/Jan/2025 00:15:55] "GET /static/img/ved1.mp4 HTTP/1.1" 206 -
+78.153.180.134 - - [29/Jan/2025 00:15:55] "GET /static/img/ved4.mp4 HTTP/1.1" 206 -
+Error on request:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/werkzeug/serving.py", line 362, in run_wsgi
+    execute(self.server.app)
+  File "/usr/lib/python3/dist-packages/werkzeug/serving.py", line 326, in execute
+    write(data)
+  File "/usr/lib/python3/dist-packages/werkzeug/serving.py", line 301, in write
+    self.wfile.write(data)
+  File "/usr/lib/python3.12/socketserver.py", line 840, in write
+    self._sock.sendall(b)
+  File "/usr/lib/python3.12/ssl.py", line 1211, in sendall
+    v = self.send(byte_view[count:])
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/ssl.py", line 1180, in send
+    return self._sslobj.write(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:2406)
+78.153.180.134 - - [29/Jan/2025 00:15:55] "GET /static/img/ved4.mp4 HTTP/1.1" 206 -
+78.153.180.134 - - [29/Jan/2025 00:16:04] "GET /static/img/ved4.mp4 HTTP/1.1" 206 -
+78.153.180.134 - - [29/Jan/2025 00:17:51] "GET /static/img/ved1.mp4 HTTP/1.1" 206 -
+78.153.180.134 - - [29/Jan/2025 00:17:51] "GET /static/img/ved4.mp4 HTTP/1.1" 206 -
+Error on request:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/werkzeug/serving.py", line 362, in run_wsgi
+    execute(self.server.app)
+  File "/usr/lib/python3/dist-packages/werkzeug/serving.py", line 326, in execute
+    write(data)
+  File "/usr/lib/python3/dist-packages/werkzeug/serving.py", line 301, in write
+    self.wfile.write(data)
+  File "/usr/lib/python3.12/socketserver.py", line 840, in write
+    self._sock.sendall(b)
+  File "/usr/lib/python3.12/ssl.py", line 1211, in sendall
+    v = self.send(byte_view[count:])
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/ssl.py", line 1180, in send
+    return self._sslobj.write(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:2406)
+78.153.180.134 - - [29/Jan/2025 00:17:51] "GET /static/img/ved4.mp4 HTTP/1.1" 206 -
+78.153.180.134 - - [29/Jan/2025 00:17:57] "GET /static/img/ved1.mp4 HTTP/1.1" 206 -
+78.153.180.134 - - [29/Jan/2025 00:18:04] "GET /static/img/ved4.mp4 HTTP/1.1" 206 -
+78.153.180.134 - - [29/Jan/2025 00:20:42] "GET /static/css/style2.css HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:20:45] "GET / HTTP/1.1" 200 -
+78.153.180.134 - - [29/Jan/2025 00:20:45] "GET /static/css/style2.css HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:20:45] "GET /static/img/email.svg HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:20:45] "GET /static/img/address.svg HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:20:46] "GET /static/img/mobile.svg HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:20:46] "GET /static/img/linkedin.svg HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:20:46] "GET /static/img/steve.png HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:20:46] "GET /static/js/tests.js HTTP/1.1" 200 -
+78.153.180.134 - - [29/Jan/2025 00:20:46] "GET /static/img/ball.png HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:20:46] "GET /static/img/floating/1%20(1).png HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:20:46] "GET /static/img/floating/1%20(2).png HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:20:46] "GET /static/img/floating/1%20(3).png HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:20:46] "GET /static/img/floating/1%20(5).png HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:20:46] "GET /static/img/floating/1%20(8).png HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:20:46] "GET /static/img/github.svg HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:20:46] "GET /static/img/pdf.svg HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:20:46] "GET /static/img/architecture2.png HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:20:46] "GET /static/img/data-sec.png HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:20:46] "GET /static/img/dhawk.png HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:20:47] "GET /static/img/ved4.mp4 HTTP/1.1" 206 -
+78.153.180.134 - - [29/Jan/2025 00:20:47] "GET /static/img/ved1.mp4 HTTP/1.1" 206 -
+Error on request:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/werkzeug/serving.py", line 362, in run_wsgi
+    execute(self.server.app)
+  File "/usr/lib/python3/dist-packages/werkzeug/serving.py", line 326, in execute
+    write(data)
+  File "/usr/lib/python3/dist-packages/werkzeug/serving.py", line 301, in write
+    self.wfile.write(data)
+  File "/usr/lib/python3.12/socketserver.py", line 840, in write
+    self._sock.sendall(b)
+  File "/usr/lib/python3.12/ssl.py", line 1211, in sendall
+    v = self.send(byte_view[count:])
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/ssl.py", line 1180, in send
+    return self._sslobj.write(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:2406)
+Error on request:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/werkzeug/serving.py", line 362, in run_wsgi
+    execute(self.server.app)
+  File "/usr/lib/python3/dist-packages/werkzeug/serving.py", line 326, in execute
+    write(data)
+  File "/usr/lib/python3/dist-packages/werkzeug/serving.py", line 301, in write
+    self.wfile.write(data)
+  File "/usr/lib/python3.12/socketserver.py", line 840, in write
+    self._sock.sendall(b)
+  File "/usr/lib/python3.12/ssl.py", line 1211, in sendall
+    v = self.send(byte_view[count:])
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/ssl.py", line 1180, in send
+    return self._sslobj.write(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:2406)
+78.153.180.134 - - [29/Jan/2025 00:20:47] "GET /static/img/ved4.mp4 HTTP/1.1" 206 -
+78.153.180.134 - - [29/Jan/2025 00:20:47] "GET /static/img/ved1.mp4 HTTP/1.1" 206 -
+78.153.180.134 - - [29/Jan/2025 00:20:50] "GET /static/img/ved4.mp4 HTTP/1.1" 206 -
+78.153.180.134 - - [29/Jan/2025 00:20:58] "GET /static/img/ved4.mp4 HTTP/1.1" 206 -
+78.153.180.134 - - [29/Jan/2025 00:26:22] "POST /submit HTTP/1.1" 200 -
+78.153.180.134 - - [29/Jan/2025 00:27:28] "GET /static/img/ved1.mp4 HTTP/1.1" 206 -
+78.153.180.134 - - [29/Jan/2025 00:27:28] "GET /static/img/ved4.mp4 HTTP/1.1" 206 -
+78.153.180.134 - - [29/Jan/2025 00:27:28] "GET /static/img/ved4.mp4 HTTP/1.1" 206 -
+78.153.180.134 - - [29/Jan/2025 00:27:29] "GET /static/img/ved1.mp4 HTTP/1.1" 206 -
+78.153.180.134 - - [29/Jan/2025 00:27:41] "GET / HTTP/1.1" 200 -
+78.153.180.134 - - [29/Jan/2025 00:27:41] "GET /static/css/style2.css HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:27:41] "GET /static/img/email.svg HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:27:41] "GET /static/img/address.svg HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:27:41] "GET /static/img/mobile.svg HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:27:41] "GET /static/img/linkedin.svg HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:27:41] "GET /static/img/steve.png HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:27:41] "GET /static/js/tests.js HTTP/1.1" 200 -
+78.153.180.134 - - [29/Jan/2025 00:27:41] "GET /static/img/ball.png HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:27:41] "GET /static/img/floating/1%20(1).png HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:27:41] "GET /static/img/floating/1%20(2).png HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:27:41] "GET /static/img/floating/1%20(3).png HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:27:41] "GET /static/img/floating/1%20(5).png HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:27:41] "GET /static/img/floating/1%20(8).png HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:27:41] "GET /static/img/github.svg HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:27:42] "GET /static/img/pdf.svg HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:27:42] "GET /static/img/architecture2.png HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:27:42] "GET /static/img/data-sec.png HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:27:42] "GET /static/img/dhawk.png HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:27:42] "GET /static/img/ved4.mp4 HTTP/1.1" 206 -
+78.153.180.134 - - [29/Jan/2025 00:27:42] "GET /static/img/ved1.mp4 HTTP/1.1" 206 -
+Error on request:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/werkzeug/serving.py", line 362, in run_wsgi
+    execute(self.server.app)
+  File "/usr/lib/python3/dist-packages/werkzeug/serving.py", line 326, in execute
+    write(data)
+  File "/usr/lib/python3/dist-packages/werkzeug/serving.py", line 301, in write
+    self.wfile.write(data)
+  File "/usr/lib/python3.12/socketserver.py", line 840, in write
+    self._sock.sendall(b)
+  File "/usr/lib/python3.12/ssl.py", line 1211, in sendall
+    v = self.send(byte_view[count:])
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/ssl.py", line 1180, in send
+    return self._sslobj.write(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:2406)
+78.153.180.134 - - [29/Jan/2025 00:27:42] "GET /static/img/ved1.mp4 HTTP/1.1" 206 -
+78.153.180.134 - - [29/Jan/2025 00:27:44] "GET /static/img/ved4.mp4 HTTP/1.1" 206 -
+78.153.180.134 - - [29/Jan/2025 00:27:49] "GET / HTTP/1.1" 200 -
+78.153.180.134 - - [29/Jan/2025 00:27:49] "GET /static/css/style2.css HTTP/1.1" 200 -
+78.153.180.134 - - [29/Jan/2025 00:27:49] "GET /static/img/email.svg HTTP/1.1" 200 -
+78.153.180.134 - - [29/Jan/2025 00:27:49] "GET /static/img/address.svg HTTP/1.1" 200 -
+78.153.180.134 - - [29/Jan/2025 00:27:49] "GET /static/img/mobile.svg HTTP/1.1" 200 -
+78.153.180.134 - - [29/Jan/2025 00:27:49] "GET /static/img/linkedin.svg HTTP/1.1" 200 -
+78.153.180.134 - - [29/Jan/2025 00:27:50] "GET /static/img/steve.png HTTP/1.1" 200 -
+78.153.180.134 - - [29/Jan/2025 00:27:50] "GET /static/js/tests.js HTTP/1.1" 200 -
+78.153.180.134 - - [29/Jan/2025 00:27:50] "GET /static/img/ball.png HTTP/1.1" 200 -
+78.153.180.134 - - [29/Jan/2025 00:27:50] "GET /static/img/floating/1%20(1).png HTTP/1.1" 200 -
+78.153.180.134 - - [29/Jan/2025 00:27:50] "GET /static/img/floating/1%20(2).png HTTP/1.1" 200 -
+78.153.180.134 - - [29/Jan/2025 00:27:50] "GET /static/img/floating/1%20(3).png HTTP/1.1" 200 -
+78.153.180.134 - - [29/Jan/2025 00:27:50] "GET /static/img/floating/1%20(5).png HTTP/1.1" 200 -
+78.153.180.134 - - [29/Jan/2025 00:27:50] "GET /static/img/floating/1%20(8).png HTTP/1.1" 200 -
+78.153.180.134 - - [29/Jan/2025 00:27:50] "GET /static/img/github.svg HTTP/1.1" 200 -
+78.153.180.134 - - [29/Jan/2025 00:27:50] "GET /static/img/pdf.svg HTTP/1.1" 200 -
+78.153.180.134 - - [29/Jan/2025 00:27:50] "GET /static/img/architecture2.png HTTP/1.1" 200 -
+78.153.180.134 - - [29/Jan/2025 00:27:50] "GET /static/img/data-sec.png HTTP/1.1" 200 -
+78.153.180.134 - - [29/Jan/2025 00:27:50] "GET /static/img/dhawk.png HTTP/1.1" 200 -
+78.153.180.134 - - [29/Jan/2025 00:27:50] "GET /static/img/ved4.mp4 HTTP/1.1" 206 -
+78.153.180.134 - - [29/Jan/2025 00:27:53] "GET /favicon.ico HTTP/1.1" 404 -
+78.153.180.134 - - [29/Jan/2025 00:28:19] "OPTIONS /submit HTTP/1.1" 200 -
+78.153.180.134 - - [29/Jan/2025 00:32:39] "GET / HTTP/1.1" 200 -
+78.153.180.134 - - [29/Jan/2025 00:32:39] "GET /static/css/style2.css HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:32:39] "GET /static/img/email.svg HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:32:39] "GET /static/img/address.svg HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:32:39] "GET /static/img/mobile.svg HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:32:39] "GET /static/img/linkedin.svg HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:32:39] "GET /static/img/steve.png HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:32:39] "GET /static/img/ved4.mp4 HTTP/1.1" 206 -
+78.153.180.134 - - [29/Jan/2025 00:32:39] "GET /static/img/ved1.mp4 HTTP/1.1" 206 -
+78.153.180.134 - - [29/Jan/2025 00:32:40] "GET /static/img/dhawk.png HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:32:40] "GET /static/img/github.svg HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:32:40] "GET /static/img/pdf.svg HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:32:40] "GET /static/img/ved4.mp4 HTTP/1.1" 206 -
+78.153.180.134 - - [29/Jan/2025 00:32:40] "GET /static/img/email.svg HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:32:40] "GET /static/img/address.svg HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:32:40] "GET /static/img/mobile.svg HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:32:40] "GET /static/img/ball.png HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:32:40] "GET /static/img/floating/1%20(1).png HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:32:40] "GET /static/img/floating/1%20(2).png HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:32:40] "GET /static/img/floating/1%20(3).png HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:32:40] "GET /static/img/floating/1%20(5).png HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:32:40] "GET /static/img/floating/1%20(8).png HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:32:40] "GET /static/img/architecture2.png HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:32:40] "GET /static/js/tests.js HTTP/1.1" 200 -
+78.153.180.134 - - [29/Jan/2025 00:32:40] "GET /static/img/data-sec.png HTTP/1.1" 304 -
+78.153.180.134 - - [29/Jan/2025 00:33:54] "GET /static/img/ved4.mp4 HTTP/1.1" 206 -
+172.206.243.102 - - [29/Jan/2025 00:36:49] "GET / HTTP/1.0" 200 -
+Traceback (most recent call last):
+  File "/home/Nawras/proto/v2/server/server.py", line 2, in <module>
+    from flask_cors import CORS
+ModuleNotFoundError: No module named 'flask_cors'
+ * Serving Flask app 'server'
+ * Debug mode: off
+Permission denied
+ * Serving Flask app 'server'
+ * Debug mode: off
+Permission denied
+ * Serving Flask app 'server'
+ * Debug mode: off
+ * Serving Flask app 'server'
+ * Debug mode: off

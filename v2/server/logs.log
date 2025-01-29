@@ -1,0 +1,157 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://10.0.0.4:443
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Access from 78.153.180.134 at 2025-01-29 01:34:02.670539
+INFO:werkzeug:78.153.180.134 - - [29/Jan/2025 01:34:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:78.153.180.134 - - [29/Jan/2025 01:34:02] "[36mGET /static/css/style2.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:78.153.180.134 - - [29/Jan/2025 01:34:02] "[36mGET /static/img/email.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:78.153.180.134 - - [29/Jan/2025 01:34:02] "[36mGET /static/img/address.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:78.153.180.134 - - [29/Jan/2025 01:34:02] "[36mGET /static/img/mobile.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:78.153.180.134 - - [29/Jan/2025 01:34:02] "[36mGET /static/img/linkedin.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:78.153.180.134 - - [29/Jan/2025 01:34:03] "[36mGET /static/img/steve.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:78.153.180.134 - - [29/Jan/2025 01:34:03] "[36mGET /static/img/data-sec.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:78.153.180.134 - - [29/Jan/2025 01:34:03] "[36mGET /static/img/floating/1%20(8).png HTTP/1.1[0m" 304 -
+INFO:werkzeug:78.153.180.134 - - [29/Jan/2025 01:34:03] "[36mGET /static/img/pdf.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:78.153.180.134 - - [29/Jan/2025 01:34:03] "[36mGET /static/img/github.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:78.153.180.134 - - [29/Jan/2025 01:34:03] "[36mGET /static/img/address.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:78.153.180.134 - - [29/Jan/2025 01:34:03] "[36mGET /static/img/mobile.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:78.153.180.134 - - [29/Jan/2025 01:34:03] "[36mGET /static/img/dhawk.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:78.153.180.134 - - [29/Jan/2025 01:34:03] "[36mGET /static/img/email.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:78.153.180.134 - - [29/Jan/2025 01:34:03] "[36mGET /static/img/architecture2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:78.153.180.134 - - [29/Jan/2025 01:34:03] "[36mGET /static/img/floating/1%20(5).png HTTP/1.1[0m" 304 -
+INFO:werkzeug:78.153.180.134 - - [29/Jan/2025 01:34:03] "[36mGET /static/js/tests.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:78.153.180.134 - - [29/Jan/2025 01:34:03] "[36mGET /static/img/ball.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:78.153.180.134 - - [29/Jan/2025 01:34:03] "[36mGET /static/img/floating/1%20(1).png HTTP/1.1[0m" 304 -
+INFO:werkzeug:78.153.180.134 - - [29/Jan/2025 01:34:03] "[36mGET /static/img/floating/1%20(2).png HTTP/1.1[0m" 304 -
+INFO:werkzeug:78.153.180.134 - - [29/Jan/2025 01:34:04] "[36mGET /static/img/floating/1%20(3).png HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:443
+ * Running on https://10.0.0.4:443
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:Access from 78.153.180.134 at 2025-01-29 01:34:54.561606
+INFO:werkzeug:78.153.180.134 - - [29/Jan/2025 01:34:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:78.153.180.134 - - [29/Jan/2025 01:34:54] "[36mGET /static/css/style2.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:78.153.180.134 - - [29/Jan/2025 01:34:54] "[36mGET /static/img/email.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:78.153.180.134 - - [29/Jan/2025 01:34:54] "[36mGET /static/img/address.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:78.153.180.134 - - [29/Jan/2025 01:34:54] "[36mGET /static/img/mobile.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:78.153.180.134 - - [29/Jan/2025 01:34:54] "[36mGET /static/img/linkedin.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:78.153.180.134 - - [29/Jan/2025 01:34:55] "[36mGET /static/img/steve.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:78.153.180.134 - - [29/Jan/2025 01:34:55] "[36mGET /static/js/tests.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:78.153.180.134 - - [29/Jan/2025 01:34:55] "[36mGET /static/img/ball.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:78.153.180.134 - - [29/Jan/2025 01:34:55] "[36mGET /static/img/floating/1%20(1).png HTTP/1.1[0m" 304 -
+INFO:werkzeug:78.153.180.134 - - [29/Jan/2025 01:34:55] "[36mGET /static/img/floating/1%20(2).png HTTP/1.1[0m" 304 -
+INFO:werkzeug:78.153.180.134 - - [29/Jan/2025 01:34:55] "[36mGET /static/img/floating/1%20(3).png HTTP/1.1[0m" 304 -
+INFO:werkzeug:78.153.180.134 - - [29/Jan/2025 01:34:55] "[36mGET /static/img/floating/1%20(5).png HTTP/1.1[0m" 304 -
+INFO:werkzeug:78.153.180.134 - - [29/Jan/2025 01:34:55] "[36mGET /static/img/floating/1%20(8).png HTTP/1.1[0m" 304 -
+INFO:werkzeug:78.153.180.134 - - [29/Jan/2025 01:34:55] "[36mGET /static/img/github.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:78.153.180.134 - - [29/Jan/2025 01:34:55] "[36mGET /static/img/pdf.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:78.153.180.134 - - [29/Jan/2025 01:34:55] "[36mGET /static/img/architecture2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:78.153.180.134 - - [29/Jan/2025 01:34:55] "[36mGET /static/img/data-sec.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:78.153.180.134 - - [29/Jan/2025 01:34:55] "[36mGET /static/img/dhawk.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:78.153.180.134 - - [29/Jan/2025 01:34:55] "[35m[1mGET /static/img/ved4.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:78.153.180.134 - - [29/Jan/2025 01:34:55] "[35m[1mGET /static/img/ved1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:78.153.180.134 - - [29/Jan/2025 01:34:58] "[35m[1mGET /static/img/ved4.mp4 HTTP/1.1[0m" 206 -
+INFO:root:Access from 78.153.180.134 at 2025-01-29 01:35:04.132738
+INFO:werkzeug:78.153.180.134 - - [29/Jan/2025 01:35:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:78.153.180.134 - - [29/Jan/2025 01:35:04] "[36mGET /static/css/style2.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:78.153.180.134 - - [29/Jan/2025 01:35:04] "[36mGET /static/img/email.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:78.153.180.134 - - [29/Jan/2025 01:35:04] "[36mGET /static/img/address.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:78.153.180.134 - - [29/Jan/2025 01:35:04] "[36mGET /static/img/mobile.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:78.153.180.134 - - [29/Jan/2025 01:35:04] "[36mGET /static/img/linkedin.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:78.153.180.134 - - [29/Jan/2025 01:35:04] "[36mGET /static/img/steve.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:78.153.180.134 - - [29/Jan/2025 01:35:04] "[36mGET /static/js/tests.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:78.153.180.134 - - [29/Jan/2025 01:35:04] "[36mGET /static/img/ball.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:78.153.180.134 - - [29/Jan/2025 01:35:04] "[36mGET /static/img/floating/1%20(1).png HTTP/1.1[0m" 304 -
+INFO:werkzeug:78.153.180.134 - - [29/Jan/2025 01:35:04] "[36mGET /static/img/floating/1%20(2).png HTTP/1.1[0m" 304 -
+INFO:werkzeug:78.153.180.134 - - [29/Jan/2025 01:35:04] "[36mGET /static/img/floating/1%20(3).png HTTP/1.1[0m" 304 -
+INFO:werkzeug:78.153.180.134 - - [29/Jan/2025 01:35:04] "[36mGET /static/img/floating/1%20(5).png HTTP/1.1[0m" 304 -
+INFO:werkzeug:78.153.180.134 - - [29/Jan/2025 01:35:04] "[36mGET /static/img/floating/1%20(8).png HTTP/1.1[0m" 304 -
+INFO:werkzeug:78.153.180.134 - - [29/Jan/2025 01:35:04] "[36mGET /static/img/github.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:78.153.180.134 - - [29/Jan/2025 01:35:04] "[36mGET /static/img/pdf.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:78.153.180.134 - - [29/Jan/2025 01:35:04] "[36mGET /static/img/architecture2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:78.153.180.134 - - [29/Jan/2025 01:35:04] "[36mGET /static/img/data-sec.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:78.153.180.134 - - [29/Jan/2025 01:35:04] "[36mGET /static/img/dhawk.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:78.153.180.134 - - [29/Jan/2025 01:35:05] "[35m[1mGET /static/img/ved4.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:77.241.136.57 - - [29/Jan/2025 01:35:58] "[35m[1mGET /static/img/ved1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:77.241.136.57 - - [29/Jan/2025 01:35:59] "[35m[1mGET /static/img/ved4.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:77.241.136.57 - - [29/Jan/2025 01:42:33] "[35m[1mGET /static/img/ved1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:77.241.136.57 - - [29/Jan/2025 01:42:33] "[35m[1mGET /static/img/ved4.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:77.241.136.57 - - [29/Jan/2025 01:42:59] "[35m[1mGET /static/img/ved4.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:77.241.136.57 - - [29/Jan/2025 01:42:59] "[35m[1mGET /static/img/ved1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:77.241.136.57 - - [29/Jan/2025 01:43:07] "[35m[1mGET /static/img/ved4.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:77.241.136.57 - - [29/Jan/2025 01:43:08] "[35m[1mGET /static/img/ved1.mp4 HTTP/1.1[0m" 206 -
+INFO:root:Access from 77.241.136.57 at 2025-01-29 01:43:10.614952
+INFO:werkzeug:77.241.136.57 - - [29/Jan/2025 01:43:10] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:77.241.136.57 - - [29/Jan/2025 01:43:10] "[36mGET /static/css/style2.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:77.241.136.57 - - [29/Jan/2025 01:43:10] "[36mGET /static/js/tests.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:77.241.136.57 - - [29/Jan/2025 01:43:10] "[36mGET /static/img/email.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:77.241.136.57 - - [29/Jan/2025 01:43:11] "[36mGET /static/img/steve.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:77.241.136.57 - - [29/Jan/2025 01:43:11] "[36mGET /static/img/floating/1%20(8).png HTTP/1.1[0m" 304 -
+INFO:werkzeug:77.241.136.57 - - [29/Jan/2025 01:43:11] "[36mGET /static/img/architecture2.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:77.241.136.57 - - [29/Jan/2025 01:43:11] "[36mGET /static/img/pdf.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:77.241.136.57 - - [29/Jan/2025 01:43:11] "[36mGET /static/img/floating/1%20(1).png HTTP/1.1[0m" 304 -
+INFO:werkzeug:77.241.136.57 - - [29/Jan/2025 01:43:11] "[36mGET /static/img/dhawk.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:77.241.136.57 - - [29/Jan/2025 01:43:11] "[36mGET /static/img/floating/1%20(2).png HTTP/1.1[0m" 304 -
+INFO:werkzeug:77.241.136.57 - - [29/Jan/2025 01:43:11] "[36mGET /static/img/floating/1%20(3).png HTTP/1.1[0m" 304 -
+INFO:werkzeug:77.241.136.57 - - [29/Jan/2025 01:43:11] "[36mGET /static/img/github.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:77.241.136.57 - - [29/Jan/2025 01:43:11] "[36mGET /static/img/data-sec.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:77.241.136.57 - - [29/Jan/2025 01:43:11] "[36mGET /static/img/floating/1%20(5).png HTTP/1.1[0m" 304 -
+INFO:werkzeug:77.241.136.57 - - [29/Jan/2025 01:43:11] "[36mGET /static/img/address.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:77.241.136.57 - - [29/Jan/2025 01:43:11] "[36mGET /static/img/mobile.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:77.241.136.57 - - [29/Jan/2025 01:43:11] "[36mGET /static/img/linkedin.svg HTTP/1.1[0m" 304 -
+INFO:werkzeug:77.241.136.57 - - [29/Jan/2025 01:43:11] "[36mGET /static/img/ball.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:77.241.136.57 - - [29/Jan/2025 01:43:11] "[35m[1mGET /static/img/ved4.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:77.241.136.57 - - [29/Jan/2025 01:43:11] "[35m[1mGET /static/img/ved1.mp4 HTTP/1.1[0m" 206 -
+ERROR:werkzeug:Error on request:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/werkzeug/serving.py", line 362, in run_wsgi
+    execute(self.server.app)
+  File "/usr/lib/python3/dist-packages/werkzeug/serving.py", line 326, in execute
+    write(data)
+  File "/usr/lib/python3/dist-packages/werkzeug/serving.py", line 301, in write
+    self.wfile.write(data)
+  File "/usr/lib/python3.12/socketserver.py", line 840, in write
+    self._sock.sendall(b)
+  File "/usr/lib/python3.12/ssl.py", line 1211, in sendall
+    v = self.send(byte_view[count:])
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/ssl.py", line 1180, in send
+    return self._sslobj.write(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:2406)
+ERROR:werkzeug:Error on request:
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/werkzeug/serving.py", line 362, in run_wsgi
+    execute(self.server.app)
+  File "/usr/lib/python3/dist-packages/werkzeug/serving.py", line 326, in execute
+    write(data)
+  File "/usr/lib/python3/dist-packages/werkzeug/serving.py", line 301, in write
+    self.wfile.write(data)
+  File "/usr/lib/python3.12/socketserver.py", line 840, in write
+    self._sock.sendall(b)
+  File "/usr/lib/python3.12/ssl.py", line 1211, in sendall
+    v = self.send(byte_view[count:])
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/ssl.py", line 1180, in send
+    return self._sslobj.write(data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+ssl.SSLEOFError: EOF occurred in violation of protocol (_ssl.c:2406)
+INFO:werkzeug:77.241.136.57 - - [29/Jan/2025 01:43:11] "[35m[1mGET /static/img/ved1.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:77.241.136.57 - - [29/Jan/2025 01:43:11] "[35m[1mGET /static/img/ved4.mp4 HTTP/1.1[0m" 206 -
+INFO:werkzeug:77.241.136.57 - - [29/Jan/2025 01:43:12] "[35m[1mGET /static/img/ved4.mp4 HTTP/1.1[0m" 206 -
+INFO:root:Access from 104.166.80.172 at 2025-01-29 01:55:28.484736
+INFO:werkzeug:104.166.80.172 - - [29/Jan/2025 01:55:28] "GET / HTTP/1.1" 200 -
+INFO:root:Access from 5.181.190.248 at 2025-01-29 02:07:42.180670
+INFO:werkzeug:5.181.190.248 - - [29/Jan/2025 02:07:42] "GET / HTTP/1.1" 200 -
+INFO:root:Access from 66.240.236.109 at 2025-01-29 02:29:05.732513
+INFO:werkzeug:66.240.236.109 - - [29/Jan/2025 02:29:05] "GET / HTTP/1.1" 200 -
+INFO:root:Access from 51.81.110.48 at 2025-01-29 03:03:18.347356
+INFO:werkzeug:51.81.110.48 - - [29/Jan/2025 03:03:18] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:135.148.57.182 - - [29/Jan/2025 03:11:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:Access from 205.210.31.132 at 2025-01-29 03:28:54.641977
+INFO:werkzeug:205.210.31.132 - - [29/Jan/2025 03:28:54] "GET / HTTP/1.1" 200 -
+INFO:root:Access from 176.113.115.249 at 2025-01-29 03:30:37.981180
+INFO:werkzeug:176.113.115.249 - - [29/Jan/2025 03:30:37] "GET / HTTP/1.1" 200 -

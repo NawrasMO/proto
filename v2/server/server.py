@@ -1,9 +1,25 @@
 from flask import Flask, render_template, request, jsonify, send_from_directory
+import sys
+sys.path.insert(0, './venv/lib/python3.12/site-packages/')
+from flask_cors import CORS
+import datetime
+import logging
 app = Flask(__name__)
+logging.basicConfig(filename='logs.log', level=logging.INFO)
+
+#@app.before_request
+#def log_request_info():
+    # Log the IP and timestamp of each request
+#    ip = request.remote_addr
+#    timestamp = datetime.datetime.now()
+#    logging.info(f"Access from {ip} at {timestamp}")
 
 # Define the routes
 @app.route('/')
 def index1():
+    ip = request.remote_addr
+    timestamp = datetime.datetime.now()
+    logging.info(f"Access from {ip} at {timestamp}")
     return render_template('index.html')
 
     
@@ -33,3 +49,4 @@ def serve_pki_file():
 
 
 app.run(host='0.0.0.0', port=443, ssl_context=('./certificate.crt', 'private.key'))
+CORS(app)

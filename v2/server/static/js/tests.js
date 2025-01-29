@@ -483,14 +483,16 @@ function saveData() {
 
   if (name && subject && mobile) {
 
-    fetch('http://localhost/submit', { // Ensure the URL matches your Flask server's address
+    fetch('https://n-mo.dk/submit', { // Ensure the URL matches your Flask server's address
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({ name: name, subject: subject, mobile: mobile })
     })
-      .then(response => response.json())
+      .then(response => 
+
+response.json())
       .then(data =>
         console.log('Success:', data))
       .catch(error => console.error('Error:', error));
