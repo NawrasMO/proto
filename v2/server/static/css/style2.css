@@ -27,7 +27,7 @@
    html,body{
      font-family: monospace;
        width:100%;
-       height:200%;
+       height:400%;
        background:#000000;
    }
    
@@ -95,7 +95,8 @@
   .second-word{
     position: fixed;
     position: fixed;
-    color: azure;
+    color:rgb(138, 138, 229);
+
     left: 52vmax;
     top: 23vmax;
     font-family: initial;

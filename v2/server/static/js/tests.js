@@ -105,30 +105,30 @@ tl.to("#sdown", {
   .to(welTextSp1, {
     y: -80,
     opacity: 0,
-    stagger: { each: 0.05, from: "random" },
+    stagger: { each: 0.5, from: "random" },
     duration: 2
   })
   .to(ss, { rotation: 540, duration: 1, ease: "none" })
   .to("#first-word1", {
-    duration: 0.5,
+    duration: 1,
     y: 20,
     opacity: 1,
     ease: "none"
   })
   .to("#first-word1", {
-    duration: 0.5,
+    duration: 1,
     y: 20,
     opacity: 0,
     ease: "none"
   })
   .to("#second-word1", {
-    duration: 0.5,
+    duration: 1,
     y: -20,
     opacity: 1,
     ease: "none"
   })
   .to("#second-word1", {
-    duration: 0.5,
+    duration: 1,
     y: -20,
     opacity: 0,
     ease: "none"
@@ -136,25 +136,25 @@ tl.to("#sdown", {
 
   
   .to("#first-word2", {
-    duration: 0.5,
+    duration: 1,
     y: 20,
     opacity: 1,
     ease: "none"
   })
   .to("#first-word2", {
-    duration: 0.5,
+    duration: 1,
     y: 20,
     opacity: 0,
     ease: "none"
   })
   .to("#second-word2", {
-    duration: 0.5,
+    duration: 1,
     y: -20,
     opacity: 1,
     ease: "none"
   })
   .to("#second-word2", {
-    duration: 0.5,
+    duration: 1,
     y: -20,
     opacity: 0,
     ease: "none"
@@ -163,25 +163,25 @@ tl.to("#sdown", {
 
 
   .to("#first-word3", {
-    duration: 0.5,
+    duration: 1,
     y: 20,
     opacity: 1,
     ease: "none"
   })
   .to("#first-word3", {
-    duration: 0.5,
+    duration: 1,
     y: 20,
     opacity: 0,
     ease: "none"
   })
   .to("#second-word3", {
-    duration: 0.5,
+    duration: 1,
     y: -20,
     opacity: 1,
     ease: "none"
   })
   .to("#second-word3", {
-    duration: 0.5,
+    duration: 1,
     y: -20,
     opacity: 0,
     ease: "none"
@@ -204,7 +204,7 @@ tl.to("#sdown", {
     scale: 0.7,
     opacity: 1,
     // ease: "elastic.out",
-    duration: 1,
+    duration: 2,
   })
 
   .to("#dotnet-img", { rotation: 360, duration: 1, opacity: 1, x: "-20vmax", ease: "none" })
