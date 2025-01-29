@@ -1,3 +1,4 @@
+window.addEventListener('load', function() {
 gsap.registerPlugin(ScrollTrigger);
 gsap.registerPlugin(MotionPathPlugin);
 gsap.registerPlugin(TextPlugin);
@@ -81,14 +82,14 @@ tl.to("#sdown", {
     scale: 0.2,
     duration: 1
   })
-  .to(ss, { opacity: 0.6, duration: 1 })
-  .to(ss, { rotation: 360, duration: 1, ease: "none" })
+  .to(ss, { opacity: 0.6, duration: 0.1 })
+  .to(ss, { rotation: 360, duration: 0.5, ease: "none" })
 
   .to(sp1, {
     y: '9.5vmax',
     opacity: 1,
     stagger: { each: 0.1, from: "random" },
-    duration: 2
+    duration: 1
   })
   .to(".wel-text", {
     y: 100,
@@ -98,9 +99,9 @@ tl.to("#sdown", {
   })
   .to("#map", {
     opacity: 1,
-    duration: 2
+    duration: 1
   })
-  .to(ss, { rotation: 450, duration: 1, ease: "none" })
+  .to(ss, { rotation: 450, duration: 0.3, ease: "none" })
   .to(welTextSp1, {
     y: -80,
     opacity: 0,
@@ -207,12 +208,12 @@ tl.to("#sdown", {
   })
 
   .to("#dotnet-img", { rotation: 360, duration: 1, opacity: 1, x: "-20vmax", ease: "none" })
-  .to("#dotnet-text", { duration: 2, opacity: 1, ease: "power2 in" })
+  .to("#dotnet-text", { duration: 1, opacity: 1, ease: "power2 in" })
   .to(".split1", {
     y: 80,
     opacity: 0,
-    stagger: { each: 0.2, from: "random" },
-    duration: 0.5
+    stagger: { each: 0.1, from: "random" },
+    duration: 0.8
   })
   .to("#dotnet-img", {
     y: -80,
@@ -225,8 +226,8 @@ tl.to("#sdown", {
   .to(".split2", {
     y: 80,
     opacity: 0,
-    stagger: { each: 0.2, from: "random" },
-    duration: 0.5
+    stagger: { each: 0.1, from: "random" },
+    duration: 0.8
   })
   .to("#linux-img", {
     y: -80,
@@ -238,34 +239,35 @@ tl.to("#sdown", {
   .to(".split3", {
     y: 80,
     opacity: 0,
-    stagger: { each: 0.2, from: "random" },
-    duration: 0.5
+    stagger: { each: 0.1, from: "random" },
+    duration: 0.8
   })
   .to("#docker-img", {
-    y: -80,
+    x: "-40vmax",
     opacity: 0,
-    duration: 1
+    duration: 1, ease: "steps(14)"
   })
   .to("#sql-img", { rotation: 720, duration: 1, opacity: 1, x: "-20vmax", ease: "bounce.out" })
   .to("#sql-text", { duration: 0.5, opacity: 1, ease: "power2 in" })
   .to(".split4", {
     y: 80,
     opacity: 0,
-    stagger: { each: 0.2, from: "random" },
-    duration: 0.5
+    stagger: { each: 0.1, from: "random" },
+    duration: 0.8
   })
   .to("#sql-img", {
-    y: -80,
+    x: "-40vmax",
     opacity: 0,
-    duration: 1
+    duration: 1,
+     ease: "bounce.out"
   })
   .to("#azure-img", { duration: 1, opacity: 1, x: "-20vmax", ease: "back.inOut(1.7)" })
   .to("#azure-text", { duration: 0.5, opacity: 1, ease: "power2 in" })
   .to(".split5", {
     y: 80,
     opacity: 0,
-    stagger: { each: 0.2, from: "random" },
-    duration: 0.5
+    stagger: { each: 0.1, from: "random" },
+    duration: 0.8
   })
   .to("#azure-img", {
     y: -80,
@@ -528,3 +530,6 @@ function cancel() {
     opacity: 0
   })
 }
+
+
+});
