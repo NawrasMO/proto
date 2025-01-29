@@ -357,7 +357,7 @@
    }
    
 #dicomhawk{
-  width: 46vmax;
+  width: 40vmax;
   opacity: 0;
   position: fixed;
   left: 30vmax;
@@ -536,6 +536,20 @@
   opacity: 0;
   display: flex;
 
+}
+
+#sdown-text{
+  position: fixed;
+    width: 6vmax;
+    /* animation: pulses2 10s; */
+    height: 2vmax;
+    left: 47vmax;
+    top: 15vmax;
+    opacity: 0;
+    display: flex;
+    font-size: 1vmax;
+    color: azure;
+    text-align: center;
 }
   /* #scroll-down{
 
@@ -1307,7 +1321,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    opacity: 0.4;
+    opacity: 0;
     background: #000; /* Background color */
     /* background-image: url("/static/img/back.svg"); */
     position: fixed;

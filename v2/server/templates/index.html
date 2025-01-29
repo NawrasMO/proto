@@ -52,7 +52,8 @@
 
   <img id="steve" src=" /static/img/steve.png">
 
-  <img id="sdown" src=" /static/img/sdown2.png">
+  <img id="sdown" src=" /static/img/sdown2.png" title="Scroll Down">
+  <div id="sdown-text"> Scroll-Down</div>
 
   <div id="ss">!</div>
 
@@ -152,7 +153,7 @@
   <div class="headers" id="project-title1"> Green Smart Home Management System (Sep-Nov 2022) </div>
   <div class="headers" id="project-title2"> Multi-Agent Path Finding Project (Feb-Apr 2023) </div>
   <div class="headers" id="project-title3"> Printer-server (Oct-Nov 2023) </div>
-  <div class="headers" id="project-title4"> DICOM-HaWk (Sep-Dec 2024) </div>
+  <div class="headers" id="project-title4"> DICOM-Haww (Sep-Dec 2024) </div>
 
   <div id="title-tails">
     <img class="title-icons" style="cursor: pointer;" id="github" src="/static/img/github.svg">
@@ -166,35 +167,35 @@
   <div class="headers-text" id="smarthome-description">The Green Smart Home project is a smart home management
     system with a microservices architecture. It uses Docker for deployment, Hazelcast for real-time distributed
     data management, and the MVC pattern for the web service.
-    Data from LoRaWAN sensors is collected through an MQTT broker integrated into the "The Things network stack".
-    This data is then used as the basis for controlling physical devices based on the collected data. </div>
+    Data from LoRaWAN sensors are collected through a MQTT broker integrated into the "The Things Network Sciencetack".
+    This data are then used as the basis for controlling physical devices based on the values. </div>
 
   <div class="headers-text" id="ai-description">A single AI client,
     implemented in Java, manages multiple virtual workers (agents) to complete tasks.
     It uses planning techniques to prevent delays and conflicts when agents operate simultaneously.
-    Particularly in loosely connected tasks (Moving boxes).Each agent works independently but cohesively.
+    Particularly in loosely connected tasks (Moving boxes). Each agent works independently but cohesively.
     To assign tasks, a "relaxed problem" approach was used utilizing Depth-First Search (DFS) and Breadth-First
     Search (BFS) algorithms for exploring options, and A* heuristics, with dynamic width assignment, to prioritize
     paths based on practicality. </div>
 
 
 
-  <div class="headers-text" id="datasec-description">A tls protected client-server architecture using JRMP
+  <div class="headers-text" id="datasec-description">A TLS protected client-server architecture using JRMP
     communication protocol. A centralized memoy-based proxy server acting as an intermediary between the client and the
-    server hoding a tls protected shared registery.
-    Classpath repositories are shared on a proxy level. JRMP provides access to a authentication
-    service and a printer services implemented in the server side. The client is a spring boot application with API
-    end-points serving a https protected User interface
+    server hoding a TLS protected shared registery.
+    Classpath repositories are shared on a proxy level. JRMP provides access to an authentication
+    service and printer services implemented on the server side. The client is a Spring Boot application with API
+    end-points serving a HTTPS protected User interface
   </div>
 
   <div class="headers-text" id="dicomhawk-description">DICOMHawk is a honeypot that simulates a real-world DICOM server
     with a high
     interaction level. DICOM is an international imaging and communication protocol for medical devices' communication.
     The honeypot embeds a Web API that allows a user to browse through DICOM image storage. On request, the DICOM server
-    provides a real looking output utalizing the Cancer Images Archive API with real DICOM files as output. As well,
+    provides a real looking output utilizing "The Cancer Imaging Archive" API with real DICOM files as output. As well,
     the honeypot embeds a set of honeytokens that allow us to identify the attacker and understand the nature of the
     attack.
-    Using an elastic stack, the honeypot supports the logging of real-time data and the analysis of the data. </div>
+    Using Elastic stack, the honeypot supports logging and analysis of real-time data.</div>
 
 
     

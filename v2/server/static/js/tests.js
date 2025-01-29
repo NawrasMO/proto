@@ -1,4 +1,16 @@
+document.body.style.overflow = "hidden"; 
+
+setTimeout(() => {
+    document.body.style.overflow = ""; 
+}, 7000);
+
 window.addEventListener('load', function() {
+
+  
+
+
+ 
+
 gsap.registerPlugin(ScrollTrigger);
 gsap.registerPlugin(MotionPathPlugin);
 gsap.registerPlugin(TextPlugin);
@@ -29,15 +41,17 @@ const icons2Container = "#icons2-container"
 
 
 
-const tl = gsap.timeline({
+ tl = gsap.timeline({
   scrollTrigger: {
     trigger: "body",
-    start: "1%",
+    
+    start: "0%",
     end: "bottom 100%",
     scrub: 1,
     toggleActions: "play reverse play reverse"
   }
 });
+
 
 
 gsap.to("#steve", {
@@ -62,19 +76,31 @@ gsap.to("#intro, #steve", {
   opacity: 0
 })
 
-gsap.to("#sdown", {
+gsap.to("#sdown,#sdown-text", {
   opacity: 0.5,
   delay:6,
   duration: 1
 }
-  );
+  )
+
+ 
+    
+
   
  
 
-tl.to("#sdown", {
+tl
+.to("#sdown-text", {
+  opacity: 0,
+  duration: 0.3,
+  ease: "power2 in"
+}
+  )
+.to("#sdown, #particles-js", {
   y:"-17vmax",
-  x:"39vmax",
-  opacity:0.6,
+  rotation:360,
+  x:"43vmax",
+  opacity:0.8,
   duration: 1
 }
   )
@@ -82,8 +108,9 @@ tl.to("#sdown", {
     scale: 0.2,
     duration: 1
   })
-  .to(ss, { opacity: 0.6, duration: 0.1 })
-  .to(ss, { rotation: 360, duration: 0.5, ease: "none" })
+  
+  .to(ss, { opacity: 0.6, duration: 0.5,ease: "power2 in" })
+  .to(ss, { rotation: 360, duration: 0.5, ease: "power2 in" })
 
   .to(sp1, {
     y: '9.5vmax',
@@ -111,81 +138,81 @@ tl.to("#sdown", {
   .to(ss, { rotation: 540, duration: 0.5, ease: "none" })
   .to("#first-word1", {
     duration: 1,
-    y: 20,
+    y: -40,
     opacity: 1,
-    ease: "none"
-  })
-  .to("#first-word1", {
-    duration: 1,
-    y: 20,
-    opacity: 0,
+    onStart:function(){
+      tl
+    },
+
     ease: "none"
   })
   .to("#second-word1", {
-    duration: 1,
-    y: -20,
+    duration: 0.5,
+    delay:-0.5,
+    y: 40,
     opacity: 1,
     ease: "none"
   })
-  .to("#second-word1", {
-    duration: 1,
+  .to("#first-word1,#second-word1", {
+    duration: 0.5,
+    // delay:0.05,
     y: -20,
     opacity: 0,
     ease: "none"
   })
 
+
+
+  .to("#first-word2", {
+    duration: 1,
+    y: -40,
+    opacity: 1,
+    onStart:function(){
+      tl
+    },
+
+    ease: "none"
+  })
+  .to("#second-word2", {
+    duration: 0.5,
+    delay:-0.5,
+    y: 40,
+    opacity: 1,
+    ease: "none"
+  })
+  .to("#first-word2,#second-word2", {
+    duration: 0.5,
+    // delay:0.05,
+    y: -20,
+    opacity: 0,
+    ease: "none"
+  })
   
-  .to("#first-word2", {
-    duration: 1,
-    y: 20,
-    opacity: 1,
-    ease: "none"
-  })
-  .to("#first-word2", {
-    duration: 1,
-    y: 20,
-    opacity: 0,
-    ease: "none"
-  })
-  .to("#second-word2", {
-    duration: 1,
-    y: -20,
-    opacity: 1,
-    ease: "none"
-  })
-  .to("#second-word2", {
-    duration: 1,
-    y: -20,
-    opacity: 0,
-    ease: "none"
-  })
-
-
-
   .to("#first-word3", {
     duration: 1,
-    y: 20,
+    y: -40,
     opacity: 1,
-    ease: "none"
-  })
-  .to("#first-word3", {
-    duration: 1,
-    y: 20,
-    opacity: 0,
+    onStart:function(){
+      tl
+    },
+
     ease: "none"
   })
   .to("#second-word3", {
-    duration: 1,
-    y: -20,
+    duration: 0.5,
+    delay:-0.5,
+    y: 40,
     opacity: 1,
     ease: "none"
   })
-  .to("#second-word3", {
-    duration: 1,
+  .to("#first-word3,#second-word3", {
+    duration: 0.5,
+    // delay:0.05,
     y: -20,
     opacity: 0,
     ease: "none"
   })
+  
   .to(".small", {
     x: "10vmax",
     opacity: 1,
@@ -263,6 +290,7 @@ tl.to("#sdown", {
     x: "-40vmax",
     opacity: 0,
     duration: 1,
+    rotation: -720,
      ease: "bounce.out"
   })
   .to("#azure-img", { duration: 1, opacity: 1, x: "-20vmax", ease: "back.inOut(1.7)" })
@@ -297,6 +325,7 @@ tl.to("#sdown", {
   })
   .to(ss, {
     scale: 3,
+
     rotation: 810,
     duration: 1
   })
@@ -361,9 +390,10 @@ tl.to("#sdown", {
     stagger: { each: 0.4 },
     opacity: 0,
     x: "15vmax",
+    delay:0.3,
     // rotation: -26,
     y: "25vmax",
-    duration: 1
+    duration: 0.7
   })
   .to(ss, {
     scale: 1,
@@ -408,7 +438,7 @@ function nextWord() {
 
   gsap.to(wordSpan2, {
     duration: 1,
-    y: -30, // Move up
+    y: -30, 
     opacity: 0,
     ease: "none",
     onComplete: () => {
@@ -460,7 +490,7 @@ document.getElementById('introduction_map').addEventListener('click', function (
 });
 
 document.getElementById('skills_map').addEventListener('click', function () {
-  window.scrollTo(0, document.body.scrollHeight * 0.27);
+  window.scrollTo(0, document.body.scrollHeight * 0.22);
 });
 
 document.getElementById('demos_map').addEventListener('click', function () {
@@ -542,3 +572,7 @@ function cancel() {
 
 
 });
+
+
+
+
