@@ -63,7 +63,7 @@ gsap.to("#intro, #steve", {
 })
 
 gsap.to("#sdown", {
-  opacity: 0.1,
+  opacity: 0.5,
   delay:6,
   duration: 1
 }
@@ -88,7 +88,7 @@ tl.to("#sdown", {
   .to(sp1, {
     y: '9.5vmax',
     opacity: 1,
-    stagger: { each: 0.1, from: "random" },
+    stagger: { each: 0.5, from: "random" },
     duration: 1
   })
   .to(".wel-text", {
@@ -105,10 +105,10 @@ tl.to("#sdown", {
   .to(welTextSp1, {
     y: -80,
     opacity: 0,
-    stagger: { each: 0.5, from: "random" },
-    duration: 2
+    stagger: { each: 0.05, from: "random" },
+    duration: 0.5
   })
-  .to(ss, { rotation: 540, duration: 1, ease: "none" })
+  .to(ss, { rotation: 540, duration: 0.5, ease: "none" })
   .to("#first-word1", {
     duration: 1,
     y: 20,
@@ -189,8 +189,8 @@ tl.to("#sdown", {
   .to(".small", {
     x: "10vmax",
     opacity: 1,
-    stagger: { each: 0.2, from: "end" },
-    duration: 0.6,
+    stagger: { each: 0.3, from: "end" },
+    duration: 1,
   }).to(".big", {
     x: "10vmax",
     scale: 5,
@@ -211,9 +211,10 @@ tl.to("#sdown", {
   .to("#dotnet-text", { duration: 1, opacity: 1, ease: "power2 in" })
   .to(".split1", {
     y: 80,
+    delay:2,
     opacity: 0,
-    stagger: { each: 0.1, from: "random" },
-    duration: 0.8
+    stagger: { each: 0.01, from: "random" },
+    duration: 0.5
   })
   .to("#dotnet-img", {
     y: -80,
@@ -225,9 +226,10 @@ tl.to("#sdown", {
   .to("#linux-text", { duration: 1, opacity: 1, ease: "power2 in" })
   .to(".split2", {
     y: 80,
+    delay:2,
     opacity: 0,
-    stagger: { each: 0.1, from: "random" },
-    duration: 0.8
+    stagger: { each: 0.01, from: "random" },
+    duration: 0.5
   })
   .to("#linux-img", {
     y: -80,
@@ -238,9 +240,10 @@ tl.to("#sdown", {
   .to("#docker-text", { duration: 1, opacity: 1, ease: "power2 in" })
   .to(".split3", {
     y: 80,
+    delay:2,
     opacity: 0,
-    stagger: { each: 0.1, from: "random" },
-    duration: 0.8
+    stagger: { each: 0.01, from: "random" },
+    duration: 0.5
   })
   .to("#docker-img", {
     x: "-40vmax",
@@ -251,9 +254,10 @@ tl.to("#sdown", {
   .to("#sql-text", { duration: 0.5, opacity: 1, ease: "power2 in" })
   .to(".split4", {
     y: 80,
+    delay:2,
     opacity: 0,
-    stagger: { each: 0.1, from: "random" },
-    duration: 0.8
+    stagger: { each: 0.01, from: "random" },
+    duration: 0.5
   })
   .to("#sql-img", {
     x: "-40vmax",
@@ -262,12 +266,13 @@ tl.to("#sdown", {
      ease: "bounce.out"
   })
   .to("#azure-img", { duration: 1, opacity: 1, x: "-20vmax", ease: "back.inOut(1.7)" })
-  .to("#azure-text", { duration: 0.5, opacity: 1, ease: "power2 in" })
+  .to("#azure-text", { duration: 0.05, opacity: 1, ease: "power2 in" })
   .to(".split5", {
     y: 80,
+    delay:2,
     opacity: 0,
-    stagger: { each: 0.1, from: "random" },
-    duration: 0.8
+    stagger: { each: 0.01, from: "random" },
+    duration: 0.5
   })
   .to("#azure-img", {
     y: -80,
@@ -315,6 +320,7 @@ tl.to("#sdown", {
   })
   .to("#arch1-img,#project-title1, #title-tails, #project-description, #smarthome-description,#pdf", {
     opacity: 0,
+    delay:2,
     stagger: { each: 0.5 },
     duration: 1
   })
@@ -325,6 +331,7 @@ tl.to("#sdown", {
   })
   .to("#ved-div,#project-title2, #title-tails, #project-description, #ai-description", {
     opacity: 0,
+    delay:2,
     stagger: { each: 0.5 },
     duration: 1
   })
@@ -335,6 +342,7 @@ tl.to("#sdown", {
   })
   .to("#data-sec,#project-title3, #title-tails, #project-description, #datasec-description", {
     opacity: 0,
+    delay:2,
     stagger: { each: 0.5 },
     duration: 1
   })
@@ -345,6 +353,7 @@ tl.to("#sdown", {
   })
   .to("#dicomhawk,#project-title4, #title-tails, #project-description, #dicomhawk-description, #s2", {
     opacity: 0,
+    delay:2,
     stagger: { each: 0.5 },
     duration: 1
   })
@@ -447,7 +456,7 @@ function splitDiv(id, classname) {
 
 
 document.getElementById('introduction_map').addEventListener('click', function () {
-  window.scrollTo(0, document.body.scrollHeight * 0.118);
+  window.scrollTo(0, document.body.scrollHeight * 0.1);
 });
 
 document.getElementById('skills_map').addEventListener('click', function () {
@@ -455,7 +464,7 @@ document.getElementById('skills_map').addEventListener('click', function () {
 });
 
 document.getElementById('demos_map').addEventListener('click', function () {
-  window.scrollTo(0, document.body.scrollHeight * 0.65);
+  window.scrollTo(0, document.body.scrollHeight * 0.59);
 });
 
 // Event listener for email icon

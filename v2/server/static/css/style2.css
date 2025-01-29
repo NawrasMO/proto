@@ -357,14 +357,14 @@
    }
    
 #dicomhawk{
-  width: 38vmax;
+  width: 46vmax;
   opacity: 0;
   position: fixed;
-  left: 31vmax;
-  height: 29vmax;
+  left: 30vmax;
+  height: 31vmax;
   top: 2vmax;
   z-index: 2;
-  background: #000000c9;
+  background: #000000;
 }
 
 
@@ -721,9 +721,8 @@
    
    }
    
-   #data-sec{
-    position: fixed;
-    width: 37%;
+   #data-sec{position: fixed;
+    width: 35vmax;
     overflow: hidden;
     font-size: clamp(1rem, 1vw + 1rem, 20px);
     line-height: 0.8;
@@ -734,7 +733,7 @@
     justify-content: center;
     opacity: 0;
     top: 8%;
-    left: 28vmax;
+    left: 33vmax;
    }
    
    
@@ -1308,7 +1307,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    opacity: 0.1;
+    opacity: 0.4;
     background: #000; /* Background color */
     /* background-image: url("/static/img/back.svg"); */
     position: fixed;
