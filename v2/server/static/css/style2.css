@@ -368,26 +368,27 @@
 
 
    #welcome-container{
-     position: fixed;
-     width: 46%;
-     top: 50%;
-     font-family: monospace;
-     height: auto;
-     /* overflow: hidden; */
-     font-size: 2.4vmax;
-     line-height: 0.8;
-     white-space: nowrap;
-     color: azure;
-     display: flex
-   ;
-     align-items: center;
-     justify-content: center;
-     text-align: start;
-     /* background: #000000c2; */
-     height: 10vmax;
-     flex-direction: row;
-     border-radius: 1vmax;
-     left: 25.6vmax;
+     
+    position: fixed;
+    width: 40vmax;
+    top: 21vmax;
+    font-family: monospace;
+    height: auto;
+    /* overflow: hidden; */
+    font-size: 2.4vmax;
+    line-height: 0.8;
+    white-space: nowrap;
+    color: azure;
+    display: flex
+;
+    align-items: center;
+    justify-content: center;
+    text-align: start;
+    /* background: #000000c2; */
+    height: 10vmax;
+    flex-direction: row;
+    border-radius: 1vmax;
+    left: 33.6vmax;
    
    }
    .icon-background2{
@@ -431,7 +432,7 @@
      opacity: 0;
      /* top: -20%; */
      /* font-family: monospace; */
-     font-size: 8vmax;
+     font-size: 6vmax;
      /* position: fixed; */
    }
    
@@ -524,6 +525,17 @@
        left: 1%;
 }
 
+#sdown{
+  position: fixed;
+  width: 3vmax;
+  /* animation: pulses2 10s  ; */
+  height: 3vmax;
+  left: 48vmax;
+  top: 18vmax;
+  opacity: 0;
+  display: flex;
+
+}
   /* #scroll-down{
 
     position: fixed;
@@ -591,8 +603,8 @@
    }
 
    #abc{
-    left: 24.4vmax;
-    top: 2vmax;
+    left: 29.4vmax;
+    top: 4vmax;
     position: fixed;
     font-family: monospace;
     color: azure;

@@ -61,7 +61,22 @@ gsap.to("#intro, #steve", {
   opacity: 0
 })
 
-tl
+gsap.to("#sdown", {
+  opacity: 0.1,
+  delay:6,
+  duration: 1
+}
+  );
+  
+ 
+
+tl.to("#sdown", {
+  y:"-17vmax",
+  x:"39vmax",
+  opacity:0.6,
+  duration: 1
+}
+  )
   .to("#glow-point0", {
     scale: 0.2,
     duration: 1
@@ -75,15 +90,15 @@ tl
     stagger: { each: 0.1, from: "random" },
     duration: 2
   })
-  .to("#map", {
-    opacity: 1,
-    duration: 1
-  })
   .to(".wel-text", {
     y: 100,
     opacity: 1,
     stagger: { each: 0.4 },
     duration: 1
+  })
+  .to("#map", {
+    opacity: 1,
+    duration: 2
   })
   .to(ss, { rotation: 450, duration: 1, ease: "none" })
   .to(welTextSp1, {
@@ -94,52 +109,52 @@ tl
   })
   .to(ss, { rotation: 540, duration: 1, ease: "none" })
   .to("#first-word1", {
-    duration: 1,
-    y: 30,
+    duration: 0.5,
+    y: 20,
     opacity: 1,
     ease: "none"
   })
   .to("#first-word1", {
-    duration: 1,
-    y: 30,
+    duration: 0.5,
+    y: 20,
     opacity: 0,
     ease: "none"
   })
   .to("#second-word1", {
-    duration: 1,
-    y: -30,
+    duration: 0.5,
+    y: -20,
     opacity: 1,
     ease: "none"
   })
   .to("#second-word1", {
-    duration: 1,
-    y: -30,
+    duration: 0.5,
+    y: -20,
     opacity: 0,
     ease: "none"
   })
 
   
   .to("#first-word2", {
-    duration: 1,
-    y: 30,
+    duration: 0.5,
+    y: 20,
     opacity: 1,
     ease: "none"
   })
   .to("#first-word2", {
-    duration: 1,
-    y: 30,
+    duration: 0.5,
+    y: 20,
     opacity: 0,
     ease: "none"
   })
   .to("#second-word2", {
-    duration: 1,
-    y: -30,
+    duration: 0.5,
+    y: -20,
     opacity: 1,
     ease: "none"
   })
   .to("#second-word2", {
-    duration: 1,
-    y: -30,
+    duration: 0.5,
+    y: -20,
     opacity: 0,
     ease: "none"
   })
@@ -147,26 +162,26 @@ tl
 
 
   .to("#first-word3", {
-    duration: 1,
-    y: 30,
+    duration: 0.5,
+    y: 20,
     opacity: 1,
     ease: "none"
   })
   .to("#first-word3", {
-    duration: 1,
-    y: 30,
+    duration: 0.5,
+    y: 20,
     opacity: 0,
     ease: "none"
   })
   .to("#second-word3", {
-    duration: 1,
-    y: -30,
+    duration: 0.5,
+    y: -20,
     opacity: 1,
     ease: "none"
   })
   .to("#second-word3", {
-    duration: 1,
-    y: -30,
+    duration: 0.5,
+    y: -20,
     opacity: 0,
     ease: "none"
   })
@@ -185,9 +200,9 @@ tl
   .to("#map", {
     x: "20vmax",
     y: "vmax",
-    scale: 0.6,
+    scale: 0.7,
     opacity: 1,
-    ease: "elastic.out",
+    // ease: "elastic.out",
     duration: 1,
   })
 
@@ -197,7 +212,7 @@ tl
     y: 80,
     opacity: 0,
     stagger: { each: 0.2, from: "random" },
-    duration: 1
+    duration: 0.5
   })
   .to("#dotnet-img", {
     y: -80,
@@ -211,7 +226,7 @@ tl
     y: 80,
     opacity: 0,
     stagger: { each: 0.2, from: "random" },
-    duration: 1
+    duration: 0.5
   })
   .to("#linux-img", {
     y: -80,
@@ -224,7 +239,7 @@ tl
     y: 80,
     opacity: 0,
     stagger: { each: 0.2, from: "random" },
-    duration: 1
+    duration: 0.5
   })
   .to("#docker-img", {
     y: -80,
@@ -232,12 +247,12 @@ tl
     duration: 1
   })
   .to("#sql-img", { rotation: 720, duration: 1, opacity: 1, x: "-20vmax", ease: "bounce.out" })
-  .to("#sql-text", { duration: 1, opacity: 1, ease: "power2 in" })
+  .to("#sql-text", { duration: 0.5, opacity: 1, ease: "power2 in" })
   .to(".split4", {
     y: 80,
     opacity: 0,
     stagger: { each: 0.2, from: "random" },
-    duration: 1
+    duration: 0.5
   })
   .to("#sql-img", {
     y: -80,
@@ -245,12 +260,12 @@ tl
     duration: 1
   })
   .to("#azure-img", { duration: 1, opacity: 1, x: "-20vmax", ease: "back.inOut(1.7)" })
-  .to("#azure-text", { duration: 1, opacity: 1, ease: "power2 in" })
+  .to("#azure-text", { duration: 0.5, opacity: 1, ease: "power2 in" })
   .to(".split5", {
     y: 80,
     opacity: 0,
     stagger: { each: 0.2, from: "random" },
-    duration: 1
+    duration: 0.5
   })
   .to("#azure-img", {
     y: -80,
