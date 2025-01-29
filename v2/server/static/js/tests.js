@@ -2,7 +2,7 @@ document.body.style.overflow = "hidden";
 
 setTimeout(() => {
     document.body.style.overflow = ""; 
-}, 7000);
+}, 8000);
 
 window.addEventListener('load', function() {
 
@@ -206,7 +206,7 @@ tl
     ease: "none"
   })
   .to("#first-word3,#second-word3", {
-    duration: 0.5,
+    duration: 0.7,
     // delay:0.05,
     y: -20,
     opacity: 0,
